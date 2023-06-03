@@ -5,7 +5,7 @@
 This is demo for <a href="http://wiki.ros.org/teb_local_planner" >Teb local planner</a>. It's based on existing <a href="http://wiki.ros.org/teb_local_planner/Tutorials" >tutorials</a>. It's showing examples how to place obstacles and viapoints.
 
 ## Prerequisites
-Enviorment with <a href="http://wiki.ros.org/" >ROS</a> installed.
+Enviorment with <a href="http://wiki.ros.org/" >ROS</a> and <a href="https://www.python.org/" >python</a> installed.
 
 <a href="http://wiki.ros.org/teb_local_planner" >Teb local planner</a> library installed.
 
@@ -27,6 +27,7 @@ python my_publish_viapoints.py
 python my_publish_obstacle.py
 ```
 ![](readme%20content/obstacles.png)
+
 More about vaipoints you can find <a href="http://wiki.ros.org/teb_local_planner/Tutorials/Following%20the%20Global%20Plan%20%28Via-Points%29" >here</a>.
 ### Publishing feedback.
 You need to enable the publish feedback option first. Check <a href="http://wiki.ros.org/teb_local_planner/Tutorials/Inspect%20optimization%20feedback" >this</a> tutorial.
