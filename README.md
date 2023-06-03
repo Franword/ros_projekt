@@ -19,17 +19,20 @@ roslaunch teb_local_planner test_optim_node.launch
 
 ### Publishing obstacles
 ```sh
-rosrun teb_local_planner_tutorials my_publish_viapoints.py 
+python my_publish_viapoints.py 
 ```
+![](readme%20content/viapoints.gif)
 ### Publishing viapoints.
 ```sh
-rosrun teb_local_planner_tutorials my_publish_obstacle.py
+python my_publish_obstacle.py
 ```
+![](readme%20content/obstacles.png)
 More about vaipoints you can find <a href="http://wiki.ros.org/teb_local_planner/Tutorials/Following%20the%20Global%20Plan%20%28Via-Points%29" >here</a>.
 ### Publishing feedback.
 You need to enable the publish feedback option first. Check <a href="http://wiki.ros.org/teb_local_planner/Tutorials/Inspect%20optimization%20feedback" >this</a> tutorial.
 
 ```sh
-rosrun teb_local_planner_tutorials my_publish_feedback.py
+python my_publish_feedback.py
 ```
-
+![](readme%20content/feedback1.png)
+![](readme%20content/feedback2.png)
